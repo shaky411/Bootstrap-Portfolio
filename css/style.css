@@ -12,7 +12,8 @@ body {
 }
 
 :root {
-    --accent-color: #173459;
+    --accent-color: #202125;
+    --hover-color: #ff02c0;
 }
 
 .card-section {
@@ -29,10 +30,12 @@ body {
     align-items: center;
 }
 
+
 .jumbotron-fluid {
     margin: 50px;
     border-radius: 15px;
-    background-color: #f7f8fc;
+    background-color: var(--accent-color);
+    color: white;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,17 +50,17 @@ body {
 }
 
 .jumbotron-fluid i {
-    color: var(--accent-color);
+    color: white;
     font-size: 30px;
     margin-right: 10px;
     margin-top: 5px;
     padding: 5px;
-    border: 2px solid black;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
 .jumbotron-fluid i:hover {
-    color: #ff02c0;
+    color: var(--hover-color);
 }
 
 .row {
@@ -67,10 +70,28 @@ body {
 .navbar {
     height: 100px;
     background-color: var(--accent-color);
+    justify-content: space-around;
 }
 
-nav a {
-    color: rgb(255, 0, 0);
+.section-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.work h1 {
+    font-size: 30px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+}
+
+.work h1:hover {
+    background-color: var(--hover-color);
 }
 
 .card {
