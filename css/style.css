@@ -70,7 +70,6 @@ body {
 .navbar {
     height: 100px;
     background-color: var(--accent-color);
-    justify-content: space-around;
 }
 
 .section-header {
@@ -96,4 +95,20 @@ body {
 
 .card {
     margin: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skills h1 {
+    font-size: 30px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+}
+
+.skills h1:hover {
+    background-color: var(--hover-color);
 }
