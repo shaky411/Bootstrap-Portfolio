@@ -30,6 +30,7 @@ body {
     align-items: center;
 }
 
+/* about section */
 
 .jumbotron-fluid {
     margin: 50px;
@@ -48,6 +49,8 @@ body {
     font-size: 30px;
     margin-top: 20px;
 }
+
+/* About section icons */
 
 .jumbotron-fluid i {
     color: white;
@@ -72,17 +75,31 @@ body {
     background-color: var(--accent-color);
 }
 
-.section-header {
+.skills {
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    flex-direction: column;
 }
+
+.section-header {
+    margin: auto;
+    width: 50%;
+    width: 200px;
+}
+
+.section-header P {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.section-header h1 {
+    text-align: center;
+}
+
+
 
 .work h1 {
     font-size: 30px;
-    display: inline;
-    align-items: center;
-    text-align: center;
     color: white;
     padding: 5px 15px;
     border-radius: 10px;
@@ -98,11 +115,10 @@ body {
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Skills Section */
+
 .skills h1 {
     font-size: 30px;
-    display: inline;
-    align-items: center;
-    text-align: center;
     color: white;
     padding: 5px 15px;
     border-radius: 10px;
