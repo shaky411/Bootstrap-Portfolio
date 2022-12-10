@@ -16,6 +16,14 @@ body {
     --hover-color: #ff02c0;
 }
 
+.navbar h1 {
+    color: white;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
 /* about section */
 
 .jumbotron-fluid {
@@ -121,4 +129,21 @@ body {
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
 
+
+/* Buttons */
+
+.btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #333842;
+}
