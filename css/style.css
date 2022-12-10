@@ -16,26 +16,13 @@ body {
     --hover-color: #ff02c0;
 }
 
-.card-section {
-    /* background-color: aqua; */
-    margin: 40px;
-}
-
-.card-container {
-    margin: 10px;
-    padding: 20px;
-}
-
-.row {
-    align-items: center;
-}
-
 /* about section */
 
 .jumbotron-fluid {
     margin: 50px;
     border-radius: 15px;
-    background-color: var(--accent-color);
+    /* background-color: var(--accent-color); */
+    background-image: linear-gradient(45deg, #320049 10%, #ba02ae 50%, #fc4eff 100%);
     color: white;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
@@ -75,31 +62,50 @@ body {
     background-color: var(--accent-color);
 }
 
-.skills {
+
+/* Skills section */
+
+/* flex Container */
+.container1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-header {
-    margin: auto;
-    width: 50%;
-    width: 200px;
-}
-
-.section-header P {
+/* Flex Items */
+.container1 P {
     font-size: 20px;
     text-align: center;
-    width: 100%;
+    width: 450px;
+    margin-top: 10px;
 }
 
-.section-header h1 {
+.container1 h1 {
+    margin-top: 50px;
+    width: 250px;
     text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: var(--accent-color);
 }
+
+.container1 h1:hover {
+    background-color: var(--hover-color);
+}
+
+
+
 
 
 
 .work h1 {
     font-size: 30px;
+    text-align: center;
+    margin-left:  50px;
+    margin-right: 50px;
     color: white;
     padding: 5px 15px;
     border-radius: 10px;
@@ -115,16 +121,4 @@ body {
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Skills Section */
 
-.skills h1 {
-    font-size: 30px;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 10px;
-    background-color: var(--accent-color);
-}
-
-.skills h1:hover {
-    background-color: var(--hover-color);
-}
