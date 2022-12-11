@@ -71,6 +71,14 @@ body {
     background-color: var(--accent-color);
 }
 
+.card img {
+    opacity: 0.5;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+
 
 /* Skills section */
 /* contact/about */
@@ -110,7 +118,6 @@ body {
 
 .cardContact h6 {
     font-weight: bold;
-    
 }
 
 /* Flex Items */
@@ -162,9 +169,13 @@ body {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     text-align: center;
     font-size: 18px;
+    background-color: var(--accent-color);
+    color: white;
   }
 
 
@@ -178,6 +189,7 @@ footer {
 .btn:hover {
     color: white;
     background-color: #333842;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 
