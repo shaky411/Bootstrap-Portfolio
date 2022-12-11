@@ -1,28 +1,45 @@
-# Challenge 2
+# Challenge 3 - Bootstrap Portfolio
 
-## This is challenge 2 of the Front End Developer Bootcamp course.
+## This is challenge 3 of the Front End Developer Bootcamp course.
 
 ## The Task:
 
-*As a marketing agency I want a codebase that follows accessibility standards so that our own site is optimized for search engines.This week, you'll build a portfolio page, which you can add to as the course progresses. 
+*This is challenge 3 of the front end developer bootcamp. Our task in this challenge is to re-create our portfolio page from challenge 2, using the Bootstrap CSS framework.
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+**Instructions:**
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+* Create a new Github repository and name it `Bootstrap-Portfolio`
+* Clone this repository to your computer
+* Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.*
+Folder Structure:
 
-### Acceptance Criteria:
+* Create a `index.html`.
+* Create a `CSS` folder.
+* Inside create a `style.css` file.
+* Create an `images` folder and place all images here.
 
-* Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Portfolio site must contain the following:
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
-
+* A navigation bar
+* A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own.
+* Include links that are applicable to your portfolio.
+* Links should navigate to the appropriate sections
+* A hero section
+* A jumbotron featuring your picture, your name, and any other information you'd like to include.
+* A work section
+* A section displaying your work in grid.
+* If you need to use placeholder image use placehold.co Links to an external site.
+* Use Bootstrap cards for each project.
+* The description should give a brief overview of the work.
+Each project will eventually link to your class project work!
+* A skills section
+List out the skills you expect to learn from the bootcamp.
+* An about/contact section
+* An About Me section in the same row.
+* A footer section
+* All hyperlinks should have a hover effect.
+* All buttons should display a box shadow upon hover.
 
 ## Installation
 
@@ -32,14 +49,16 @@ N/A
 
 Please click on the following link to see my finished portfolio webpage.
 
-https://shaky411.github.io/Challenge2/
+https://shaky411.github.io/Bootstrap-Portfolio/
 
 
 ## Screenshots
 
-![Alt text](images/Screenshot/Screenshot_1.jpeg)
+![Alt text](images/Screenshots/SS01.jpeg)
 
-![Alt text](images/Screenshot/Screenshot_2.png)
+![Alt text](images/Screenshots/SS02.jpeg)
+
+![Alt text](images/Screenshots/SS03.png)
 
 ## Credits
 

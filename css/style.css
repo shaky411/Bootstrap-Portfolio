@@ -107,7 +107,12 @@ body {
 
 .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
+}
+
+.links a {
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .links img {
