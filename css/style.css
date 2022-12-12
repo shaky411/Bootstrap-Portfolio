@@ -191,8 +191,12 @@ footer {
   footer a {
     align-items: center;
     /* background-color: #ba02ae; */
-    color: rgb(12, 255, 223);
-    /* margin: 0px 5px 0px 5px; */
+    color: white;
+    margin: 0px 5px 0px 5px;
+  }
+
+  footer a:hover {
+    color: var(--hover-color);
   }
 
   footer a:after {
@@ -207,6 +211,10 @@ footer {
         content: " ";
     }
 
+    footer ul {
+        margin-top: 20px;
+    }
+
 /* Buttons */
 
 .btn {
@@ -219,6 +227,3 @@ footer {
     background-color: #333842;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
-
-
-
