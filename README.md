@@ -1,23 +1,14 @@
-# Challenge 3 - Bootstrap Portfolio
+# Bootstrap Portfolio
 
-## This is challenge 3 of the Front End Developer Bootcamp course.
+![licence](https://img.shields.io/badge/licence-MIT-yellow.svg)
+
+## This is my Bootstrap portfoli.
 
 ## The Task:
 
-*This is challenge 3 of the front end developer bootcamp. Our task in this challenge is to re-create our portfolio page from challenge 2, using the Bootstrap CSS framework.
+* I have been tasked with creating a portfolio page using the Bootstrap CSS Framework.
 
 **Instructions:**
-
-* Create a new Github repository and name it `Bootstrap-Portfolio`
-* Clone this repository to your computer
-* Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
-
-Folder Structure:
-
-* Create a `index.html`.
-* Create a `CSS` folder.
-* Inside create a `style.css` file.
-* Create an `images` folder and place all images here.
 
 Portfolio site must contain the following:
 
@@ -47,7 +38,7 @@ N/A
 
 ## Usage
 
-Please click on the following link to see my finished portfolio webpage.
+Please click on the following link to see my finished portfolio page.
 
 https://shaky411.github.io/Bootstrap-Portfolio/
 
@@ -66,4 +57,5 @@ N/A
 
 ## License
 
-Please refer to the license in the repo.
+* _This application has the MIT Licence_
+For more info, please go to the [licence description](https://opensource.org/license/mit/)
