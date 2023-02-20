@@ -2,7 +2,7 @@
 
 ![licence](https://img.shields.io/badge/licence-MIT-yellow.svg)
 
-## This is my Bootstrap portfoli.
+## This is my Bootstrap portfolio.
 
 ## The Task:
 
