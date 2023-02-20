@@ -4,11 +4,15 @@
 
 ## This is my Bootstrap portfolio.
 
-## The Task:
+<br>
+
+### The Task:
 
 * I have been tasked with creating a portfolio page using the Bootstrap CSS Framework.
 
-**Instructions:**
+<br>
+
+**`Instructions:`**
 
 Portfolio site must contain the following:
 
@@ -32,9 +36,13 @@ List out the skills you expect to learn from the bootcamp.
 * All hyperlinks should have a hover effect.
 * All buttons should display a box shadow upon hover.
 
+<br>
+
 ## Installation
 
 N/A
+
+<br>
 
 ## Usage
 
@@ -42,8 +50,11 @@ Please click on the following link to see my finished portfolio page.
 
 https://shaky411.github.io/Bootstrap-Portfolio/
 
+<br>
 
 ## Screenshots
+
+<br>
 
 ![Alt text](images/Screenshots/SS01.jpeg)
 
@@ -51,9 +62,13 @@ https://shaky411.github.io/Bootstrap-Portfolio/
 
 ![Alt text](images/Screenshots/SS03.png)
 
+<br>
+
 ## Credits
 
 N/A
+
+<br>
 
 ## License
 
