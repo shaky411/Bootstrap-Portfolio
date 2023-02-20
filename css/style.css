@@ -175,6 +175,15 @@ body {
     background-color: var(--hover-color);
 }
 
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
 .work h1 {
     font-size: 30px;
     text-align: center;
@@ -188,6 +197,12 @@ body {
 
 .work h1:hover {
     background-color: var(--hover-color);
+    
+}
+
+.btn {
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .card {
@@ -200,11 +215,18 @@ body {
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* padding: 20px; */
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     background-color: var(--accent-color);
     color: white;
+  }
+
+  footer p {
+    margin-top: 20px;
+    font-size: 13px;
   }
 
   footer a {
@@ -212,19 +234,23 @@ footer {
     /* background-color: #ba02ae; */
     color: white;
     margin: 0px 5px 0px 5px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #333842;
   }
 
   footer a:hover {
     color: var(--hover-color);
+    background-color: #61257c;
   }
 
-  footer a:after {
+  /* footer a:after {
     content: " | ";
     color: #ccc;
     display: inline-block;
     font-size: 100%;
     margin: 0 0 0 .5em;
-    }
+    } */
 
     footer a:last-child:after {
         content: " ";
